@@ -26,7 +26,7 @@ const Sidebar = () => {
     <div className="lg:hidden">
       {showSidebar ? (
         <button
-          className="flex text-2xl text-white items-center cursor-pointer fixed top-4 left-10  z-50 md:top-6"
+          className="flex text-2xl text-blue-700 items-center cursor-pointer fixed top-4 left-10  z-50 md:top-6"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           x
@@ -47,8 +47,8 @@ const Sidebar = () => {
         }`}
       > 
         <div className="pb-5 h-screen scrollbar-hide overflow-y-scroll">
-            <div className="fixed flex items-center justify-center z-40 top-0 left-0 h-16 w-full bg-blue-900">
-              <h1 className="text-2xl md:text-4xl font-bold">SAI Tecknova</h1>
+            <div className="fixed flex items-center justify-start z-40 top-0 left-0 h-16 w-full pl-16 bg-white">
+              <img className="w-12 h-12 object-contain" src='/logo.png'/>
             </div>
             <h3 className="text-xl mt-16 pl-4 py-3 font-semibold bg-blue-400 rounded-lg flex text-white"><HomeIcon className="w-6 mr-4"/>Home</h3>
             <div className="p-2 bg-blue-700 rounded-lg">

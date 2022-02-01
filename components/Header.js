@@ -5,20 +5,35 @@ import {
 } from '@heroicons/react/outline'
 import { PhoneIcon } from '@heroicons/react/solid'
 import Sidebar from './Sidebar'
+import Brochure from './Brochure'
 import { Menu } from '@headlessui/react'
 import { Link } from "react-scroll";
 
 function Header() {
     return (
-        <div className="bg-white shadow-md">
+        <div className="relative bg-white shadow-md">
             <div className="flex justify-between max-w-screen-2xl xl:mx-auto items-center mx-5 py-3 xl:px-3">
                 {/* left */}
-                <div className="cursor-pointer flex items-center flex-col justify-center pl-14 lg:pl-0">
+                <div className="cursor-pointer flex items-center lg:flex-col justify-center pl-14 lg:pl-0">
                     <Sidebar />
-                    <h1 className="font-bold text-blue-700 text-lg sm:text-xl md:text-4xl flex-shrink-0">SAI Tecknova</h1>
-                    <p className="ml-2 text-xs md:text-md text-gray-500">(Experiential Learning)</p>
+                    <img className="w-16 h-8 md:w-20 md:h-12 lg:w-16 lg:h-8 object-contain" src='/logo-icon.png' alt='logo'/>
+                    <img className="w-12 h-10 md:w-16 md:h-12 lg:w-9 lg:h-6 object-contain hidden sm:inline-block" src='/logo-name.png' alt='logo'/>
+                    {/* <p className="ml-2 text-xs md:text-md text-gray-500">(Experiential Learning)</p> */}
                 </div>
                 
+                <Brochure/>
+                
+                {/* <div className="group">
+                    <button>Explore Program</button>
+                    <div className="hidden z-30 group-hover:inline-block absolute top-20 left-0 right-0 text-black bg-white">
+                        <p>1Data Science</p>
+                        <p>2Data Science</p>
+                        <p>3Data Science</p>
+                        <p>4Data Science</p>
+                        <p>5Data Science</p>
+                        <p>6Data Science</p>
+                    </div>
+                </div> */}
 
                 {/* right */}
                 <div className="flex lg:hidden items-center justify-end space-x-8">

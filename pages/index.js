@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sai Tecknova</title>
+        <title>DataInfo-Academy</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
