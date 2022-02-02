@@ -5,6 +5,7 @@ import {
 } from '@heroicons/react/outline'
 import { PhoneIcon } from '@heroicons/react/solid'
 import Sidebar from './Sidebar'
+import SlidebarCourses from './SlidebarCourses'
 import Brochure from './Brochure'
 import { Menu } from '@headlessui/react'
 import { Link } from "react-scroll";
@@ -37,21 +38,21 @@ function Header() {
 
                 {/* right */}
                 <div className="flex lg:hidden items-center justify-end space-x-8">
-                    
-                    <Menu as='div' className="relative" >
+                    <SlidebarCourses />
+                    {/* <Menu as='div' className="relative" >
                         <Menu.Button>
                             <button className="text-xs flex items-center rounded-lg bg-blue-500 text-white p-1 sm:p-2 hover:shadow-lg active:bg-blue-800">
                                 <ChevronDownIcon className="w-3"/>All Programs
                             </button>
                         </Menu.Button>
                         {/* menu list */}
-                        <Menu.Items className="absolute z-30 font-semibold bg-blue-500 p-4 right-0 mt-1 w-40 rounded-md text-white shadow-md space-y-3">
+                        {/* <Menu.Items className="absolute z-30 font-semibold bg-blue-500 p-4 right-0 mt-1 w-40 rounded-md text-white shadow-md space-y-3">
                             <p  className="hover:text-black cursor-pointer">Privacy Policy</p>
                             <p  className="hover:text-black cursor-pointer">About us</p>
                             <p  className="hover:text-black cursor-pointer">Contact us</p>
                             <p  className="hover:text-black cursor-pointer">SignIn</p>
                         </Menu.Items>
-                    </Menu>
+                    </Menu>  */}
                     
 
                 </div> 

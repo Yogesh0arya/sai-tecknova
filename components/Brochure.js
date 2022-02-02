@@ -22,7 +22,7 @@ function Brochure() {
                                 <div className="col-span-2">
 
                                 <div className={`absolute pb-12 shadow-lg min-h-[430px] bg-white left-56 top-0 right-0  ${def ? ('default:inline-block') : ('hidden')} group-hover:inline-block text-black`}>
-                                    <h1 className="text-xl text-center font-bold mb-3 text-blue-700">{topic}</h1>
+                                    <h1 key={id} className="text-xl text-center font-bold mb-3 text-blue-700">{topic}</h1>
                                     {time ? (
                                     <div className="grid grid-cols-2 gap-x-5 gap-y-5 px-5">
                                         {courses.map(({title, list})=>(
