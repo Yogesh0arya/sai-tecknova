@@ -15,7 +15,7 @@ function Header() {
         <div className="relative bg-white shadow-md">
             <div className="flex justify-between max-w-screen-2xl xl:mx-auto items-center mx-5 py-3 xl:px-3">
                 {/* left */}
-                <div className="cursor-pointer flex items-center lg:flex-col justify-center pl-14 lg:pl-0">
+                <div className="cursor-pointer flex items-center lg:flex-col justify-center pl-10 sm:pl-14 lg:pl-0">
                     <Sidebar />
                     <img className="w-16 h-8 md:w-20 md:h-12 lg:w-16 lg:h-8 object-contain" src='/logo-icon.png' alt='logo'/>
                     <img className="w-12 h-10 md:w-16 md:h-12 lg:w-9 lg:h-6 object-contain hidden sm:inline-block" src='/logo-name.png' alt='logo'/>
