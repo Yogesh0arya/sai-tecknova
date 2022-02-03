@@ -4,7 +4,7 @@ export const AdvisoryData =[
         'name': 'Prof. Sotiris Moschoyiannis',
         'title': 'Prof. Sotiris Moschoyiannis, Reader in Computer Science, Department of Computer Science, University of Surrey, U.K',
         'area': 'Theoretical Computer Science, Learning and Control in complex networks, control theory, approximations methods, Reinforcement Learning (rule-based, deep), Machine Learning, Data Mining',
-        'img': '/Advisory/Sotiris.png',
+        'img': '/Advisory/sotiris.png',
     }, 
     {
         'id': 2,
