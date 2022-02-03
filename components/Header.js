@@ -62,6 +62,7 @@ function Header() {
                     <Link  className="navBtnLg" to="highlights" spy={true} smooth={true} offset={50} duration={500}>Highlights</Link>
                     <Link  className="navBtnLg" to="events" spy={true} smooth={true} offset={50} duration={500}>Events</Link>
                     <Link  className="navBtnLg" to="industry" spy={true} smooth={true} offset={50} duration={500}>Industry Partners</Link>
+                    <Link  className="navBtnLg" to="advisory" spy={true} smooth={true} offset={50} duration={500}>Advisory</Link>
                     <Link  className="navBtnLg" to="awards" spy={true} smooth={true} offset={50} duration={500}>Awards</Link>
                     <Link  className="navBtnLg" to="career" spy={true} smooth={true} offset={50} duration={500}>Careers</Link>
                     <Link  className="navBtnLg" to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact us</Link>

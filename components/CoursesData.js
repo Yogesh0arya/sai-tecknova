@@ -138,9 +138,35 @@ export const CoursesData = [
             }
            
         ],
+        'eachTime': '30',
         'starts': '6th Feb 2022',
         'duration': 'Monday to Sunday: 6 PM to 10 PM'
     },
+
+    {
+        'id': 5,
+        'topic': 'Students Project',
+        'year': 'Final Year',
+        'degree': '(For B.E/B.Tech/B.Sc./M.C.A)',
+        'project': true,
+        'courses': [
+            {
+                'title': 'Sample Project Titles',
+                'list': [
+                    'Time Series Forecasting with LSTM Neural Network Python',
+                    'NLP and Deep Learning For Fake News Classification in Python',
+                    'Forecasting Business KPIs with Tensorflow and Python',
+                    'Census Income Data Set Project - Predict Adult Census Income',
+                    'Image Segmentation using Mask R-CNN with Tensorflow',
+                    'MNIST Dataset : Digit Recognizer Data Science Project',
+                    'Machine Learning or Predictive Models in IoT - Energy Prediction Use Case',
+                    'Topic modelling using Kmeans clustering to group customer reviews',
+                ] 
+            },      
+        ],
+        
+    },
 ]
 
+// +91-7708940140
 

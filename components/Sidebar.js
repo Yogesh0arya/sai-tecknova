@@ -67,6 +67,9 @@ const Sidebar = () => {
               <Link onClick={() => setShowSidebar(!showSidebar)} to="industry" spy={true} smooth={true} offset={50} duration={500} className="sm:text-xl text-lg hover:bg-blue-400 rounded-lg pl-2 py-1 font-semibold text-white flex">
                 <OfficeBuildingIcon className="w-6 mr-4"/>Industry Partners
               </Link> 
+              <Link onClick={() => setShowSidebar(!showSidebar)} to="advisory" spy={true} smooth={true} offset={50} duration={500} className="sm:text-xl text-lg hover:bg-blue-400 rounded-lg pl-2 py-1 font-semibold text-white flex">
+                <LightBulbIcon className="w-6 mr-4"/>Advisory
+              </Link> 
               <Link onClick={() => setShowSidebar(!showSidebar)} to="awards" spy={true} smooth={true} offset={50} duration={500} className="sm:text-xl text-lg hover:bg-blue-400 rounded-lg pl-2 py-1 font-semibold text-white flex">
                 <GiftIcon className="w-6 mr-4"/>Awards
               </Link>
@@ -76,7 +79,6 @@ const Sidebar = () => {
             </div>
             <div className="space-y-2 pl-3 border-t border-white pt-3 mt-3">
               <h3 className="text-lg sm:text-xl font-semibold text-white flex"><AcademicCapIcon className="w-6 mr-4"/>Placement</h3>
-              <h3 className="text-lg sm:text-xl font-semibold text-white flex"><LightBulbIcon className="w-6 mr-4"/>Advisory</h3>
               <h3 className="text-lg sm:text-xl font-semibold text-white flex"><UsersIcon className="w-6 mr-4"/>Committee</h3>
               <h3 className="text-lg sm:text-xl font-semibold text-white flex mb-2 pb-2 border-b border-white"><UserGroupIcon className="w-6 mr-4"/>Members</h3>
               <h3 className="text-lg sm:text-xl font-semibold text-white flex"><QuestionMarkCircleIcon className="w-6 mr-4"/>FAQ</h3>

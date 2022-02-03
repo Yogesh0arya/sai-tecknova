@@ -8,6 +8,7 @@ import Courses from '../components/Courses'
 import Highlights from '../components/Highlights'
 import Events from '../components/Events'
 import IndustryPartners from '../components/IndustryPartners'
+import Advisory from '../components/Advisory'
 import Awards from '../components/Awards'
 import Career from '../components/Career'
 import ContactUs from '../components/ContactUs'
@@ -21,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="w-screen overflow-x-hidden">
+      <div className="overflow-x-hidden">
         <div className="h-screen lg:h-auto">
             <Header/>
             <FrontPage />
@@ -31,6 +32,7 @@ export default function Home() {
         <Highlights />
         <Events />
         <IndustryPartners />
+        <Advisory />
         <Awards />
         <Career />
         <div className=" mt-24 bg-cover bg-[url('/backblue.jpg')]">

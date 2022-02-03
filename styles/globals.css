@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @layer components {
-    /* .navBtn {
+  /* .navBtn {
       @apply text-white h-7 cursor-pointer hover:scale-125 transition-all duration-100 ease-out;
     } */
-    .navBtnLg {
-      @apply text-gray-600 xl:text-xl font-semibold cursor-pointer hover:scale-110 transition-all duration-100 ease-out;
-    }
-    /* .btns {
+  .navBtnLg {
+    @apply text-gray-800 xl:text-lg font-semibold cursor-pointer hover:scale-110 transition-all duration-100 ease-out;
+  }
+  /* .btns {
       @apply transition-all duration-100 ease-out hover:scale-110 hover:bg-pink-200;
     } */
-  }
+}
