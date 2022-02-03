@@ -13,7 +13,7 @@ function Advisory() {
                         return(
                             <div key={id} className="relative rounded-lg group shadow-lg shadow-gray-500 flex-shrink-0 transform hover:scale-105 hover:shadow-lg hover:shadow-black transition duration-500 ease-out ">
                                 <img src={img} alt="image" className=' object-fill rounded-lg h-56 w-56 md:h-96 md:w-96'/>
-                                <div className='absolute text-xs md:text-base rounded-lg transform transition duration-500 ease-out group-hover:bg-opacity-75 flex flex-col justify-end items-center text-gray-300 bg-black bg-opacity-50 top-0 bottom-0 z-10 p-2'>
+                                <div className='absolute cursor-pointer text-xs md:text-base rounded-lg transform transition duration-500 ease-out group-hover:bg-opacity-75 flex flex-col justify-end items-center text-gray-300 bg-black bg-opacity-50 top-0 bottom-0 z-10 p-2'>
                                     <h1 className="md:text-lg text-white font-bold transition duration-500 ease-out group-hover:scale-110 group-hover:-translate-y-3">{name}</h1>
                                     <p className="transition duration-700 ease-out group-hover:-translate-y-3">{title}</p>
                                     <p className="hidden group-hover:inline-block mb-2 text-xs"><span className="hidden md:inline-block">{subtitle}</span></p>
