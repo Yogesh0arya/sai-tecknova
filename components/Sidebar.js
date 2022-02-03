@@ -46,7 +46,7 @@ const Sidebar = () => {
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       > 
-        <div className="pb-5 h-screen scrollbar-hide overflow-y-scroll">
+        <div className="pb-5 h-screen overscroll-contain scrollbar-hide overflow-y-scroll">
             <div className="fixed flex items-center justify-start z-40 top-0 left-0 h-16 w-full pl-16 bg-white">
               <img className="w-12 h-12 object-contain" src='/logo.png'/>
             </div>
