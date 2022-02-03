@@ -43,7 +43,7 @@ function FrontPage() {
                             <a className='text-white mr-3 bg-blue-500 px-10 py-4 shadow-md rounded-lg font-bold my-3 hover:shadow-xl active:shadow-sm active:scale-95 transition duration-150' href="https://forms.gle/DUZarUMgWLPsY4DCA">Apply now</a>
                             <button className='text-black bg-white border-2 border-black px-3 py-3 shadow-md rounded-lg font-bold my-3 hover:shadow-xl active:shadow-sm active:scale-95 transition duration-150'>Download Brochure</button>
                         </div>
-                        <p className="text-orange-600 hidden lg:inline">Applications Close Today</p>
+                        <p className="text-green-600 hidden lg:inline">Applications Open</p>
                 
                     </div>
 
@@ -51,7 +51,7 @@ function FrontPage() {
                         <a className='text-white bg-blue-500 py-4 shadow-md rounded-lg font-bold  hover:shadow-xl active:shadow-sm active:scale-95 transition duration-150' href="https://forms.gle/DUZarUMgWLPsY4DCA">Apply now</a>
                         <button className='text-black bg-white border-2 border-black  py-3 shadow-md rounded-lg font-bold  hover:shadow-xl active:shadow-sm active:scale-95 transition duration-150'>Download Brochure</button>
                     </div>
-                    <p className="text-orange-600 lg:hidden">Applications Close Today</p>
+                    <p className="text-green-600 lg:hidden">Applications Open</p>
                 </div>
 
                 {/* <div className="max-w-6xl mx-auto">
