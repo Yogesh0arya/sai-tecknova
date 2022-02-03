@@ -32,7 +32,7 @@ const SidebarCourses = () => {
           showSidebar ? "translate-x-0" : "-translate-x-full"
         }`}
       > 
-        <div className="pb-5 pt-20 h-screen scrollbar-hide overflow-y-scroll">
+        <div className="pb-5 pt-20 overscroll-contain h-screen scrollbar-hide overflow-y-scroll">
             <div className="fixed flex items-center justify-start z-40 top-0 left-0 h-16 shadow-lg w-full pl-6 bg-white">
               <img className="w-12 h-12 object-contain" src='/logo.png'/>
               <a className="p-2 text-white text-xs sm:text-base mx-auto my-2 bg-green-500 shadow-lg rounded-full" href="https://forms.gle/DUZarUMgWLPsY4DCA">Registration</a>
