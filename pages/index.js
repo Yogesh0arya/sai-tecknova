@@ -36,8 +36,8 @@ export default function Home() {
         <Awards />
         <Career />
         <div className=" mt-24 bg-cover bg-[url('/backblue.jpg')]">
-          <div className="xl:max-w-6xl xl:mx-auto mx-5 text-white py-16 text-3xl font-extrabold text-center">
-            <p className='flex'>Send your CV on Whatsapp:<PhoneIcon className="w-6 mx-2"/>+91-7708940140</p>
+          <div className="xl:max-w-6xl xl:mx-auto mx-5 text-white py-8 md:py-16 text-lg md:text-3xl font-extrabold">
+            <p className="cursor-pointer flex flex-col items-center justify-center md:flex-row">Send your CV on Whatsapp: <span className="flex items-center"><PhoneIcon className="w-9 mr-2"/>+91-7708940140</span></p>
           </div>
         </div>
         <ContactUs />
