@@ -9,7 +9,7 @@ function ContactUs() {
                     <h1 className="text-4xl font-bold text-center mt-8 mb-2 text-black">Still have queries?</h1>
                     <h1 className="text-4xl font-bold text-center mb-8 text-black">Contact Us</h1>
                     <div className="text-gray-600">
-                        <p>Please fill in the form and an expert from the admissions office will call you in the next 4 working hours. You can also reach out to us at <span className="text-blue-700 cursor-pointer">pgpdsba@greatlearning.in</span> or <span className="text-blue-700 cursor-pointer">080-4718-9251</span></p>
+                        <p>Please fill in the form and an expert from the admissions office will call you in the next 4 working hours. You can also reach out to us at  <span className="text-blue-700 cursor-pointer">+91-7708940140</span></p>
                         
                     </div>
                 </div>
