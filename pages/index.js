@@ -12,7 +12,7 @@ import Advisory from '../components/Advisory'
 import Awards from '../components/Awards'
 import Career from '../components/Career'
 import ContactUs from '../components/ContactUs'
-
+import {PhoneIcon} from '@heroicons/react/outline'
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
         <Career />
         <div className=" mt-24 bg-cover bg-[url('/backblue.jpg')]">
           <div className="xl:max-w-6xl xl:mx-auto mx-5 text-white py-16 text-3xl font-extrabold text-center">
-            <p>Send your CV: email_id</p>
+            <p className='flex'>Send your CV on Whatsapp:<PhoneIcon className="w-6 mx-2"/>+91-7708940140</p>
           </div>
         </div>
         <ContactUs />
