@@ -1,3 +1,5 @@
+import {PhoneIcon} from '@heroicons/react/outline'
+
 function ContactUs() {
     return (
     <>
@@ -36,9 +38,8 @@ function ContactUs() {
 
         <div className="bg-black">
             <div className="max-w-6xl xl:mx-auto py-10 mx-5 flex flex-wrap gap-x-8 text-white">
-                <p className="cursor-pointer">https://www.mygreatlearning.com/pg-program-data-science-and-business-analytics-course</p>
-                <p className="cursor-pointer">https://fst.sspu.ac.in/</p>
-                <p className="cursor-pointer">https://ineuron.ai/</p>
+                <p className="cursor-pointer flex"><PhoneIcon className="w-6 mr-2"/>+91-7708940140</p>
+                <p className="cursor-pointer">DataInfo Academy</p>
             </div>
         </div>
     </>
